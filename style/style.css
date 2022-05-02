@@ -1,0 +1,85 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+/*Game Page*/
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+#container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cell {
+    width : 40px;
+    height: 40px;
+    background-color: #ccc;
+    border: solid 1px #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: inset 2px 2px 10px 1px rgba(0,0,0,0.54);
+    user-select: none;
+}
+.close {
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.54);
+    color: #ccc;
+}
+.boom{
+    background-image: url(../img/mine.png);
+    background-position: center;
+    background-color: #E04F5F;
+}
+.flag{
+    background-image: url(../img/flag.png);
+    background-position: center;
+    color: rgba(204, 204, 204, 0);
+}
+
+
+/*Start Page*/
+#start {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start h2{
+    font-size: 3rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+select{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    margin: 2rem;
+    font-size: 1rem;
+}
+button {
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    border: solid 1px #e04f607e;
+    background-color: #e04f607e;
+    font-size: 1rem;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white
+}
