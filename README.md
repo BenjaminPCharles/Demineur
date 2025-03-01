@@ -1,12 +1,12 @@
-# V1
+## V1
 
-## TO DO:
+### To-Do:
 
-- Manage the maximum number of flags
-- Stop the timer
+- Implement a maximum limit for flags
+- Stop the timer when the game ends
 
-## BUGS:
+### Bugs:
 
-- After winning, if the user clicks on a flag, change the classList to avoid the "boom" and therefore losing
-- Unable to remove the flag if there is an error
-- Some issues with the loop for the number of mines
+- After winning, clicking on a flagged cell should not trigger a loss (update classList to prevent the "boom" effect)
+- Unable to remove a flag if placed incorrectly
+- Some inconsistencies in the loop that generates mines
