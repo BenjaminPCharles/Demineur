@@ -76,10 +76,10 @@ button {
     padding: 0.5rem 2rem;
     border-radius: 20px;
     border: solid 1px #e04f607e;
-    background-color: #e04f607e;
+    background-color: white;
     font-size: 1rem;
 }
 button:hover {
     cursor: pointer;
-    background-color: white
+    background-color: #e04f607e;
 }
